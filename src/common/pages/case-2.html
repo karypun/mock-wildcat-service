@@ -1,0 +1,141 @@
+
+  <Fragment>
+    <div class="govuk-width-container">
+  <a href="/list" class="govuk-back-link">Back to all applications</a>
+
+  <main class="govuk-main-wrapper">
+
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-two-thirds">
+        <span class="govuk-caption-l">Application number</span>
+        <h1 class="govuk-heading-l">F4-45221</h1>
+        <strong class="govuk-tag govuk-tag--blue">
+        new
+        </strong>
+
+                <table class="govuk-table">
+                  <thead class="govuk-table__head">
+                    <tr class="govuk-table__row">
+                      <th scope="col" class="govuk-table__header">
+
+                      </th>
+                      <th scope="col" class="govuk-table__header">
+
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody class="govuk-table__body">
+
+                    <tr class="govuk-table__row">
+                      <th scope="row" class="govuk-table__header">
+                        Owner's full name
+                      </th>
+                      <td class="govuk-table__cell">
+                        Jane Plough
+                      </td>
+                    </tr>
+                    <tr class="govuk-table__row">
+                      <th scope="row" class="govuk-table__header">
+                        Cat's name
+                      </th>
+                      <td class="govuk-table__cell">
+                        Solstice Rain
+                      </td>
+                    </tr>
+                    <tr class="govuk-table__row">
+                      <th scope="row" class="govuk-table__header">
+                        Species
+                      </th>
+                      <td class="govuk-table__cell">Bengal</td>
+                    </tr>
+                  </tbody>
+                </table>
+
+<div id="search-filter-panel" class="filter-panel" aria-hidden="true" style="background: #eee; clear: both; margin: 20px -10px 20px -15px; padding: 25px 15px;">
+                <div class="govuk-form-group">
+                  <fieldset class="govuk-fieldset">
+                    <legend class="govuk-fieldset__legend govuk-fieldset__legend--s">
+                      <h2 class="govuk-fieldset__heading">
+                        Overall decision
+                      </h2>
+                      <div id="with-hint-hint" class="govuk-hint">
+                        What do you want to do with this application?
+                      </div>
+                    </legend>
+                    <div class="govuk-radios govuk-radios--small">
+                      <div class="govuk-radios__item">
+                        <input class="govuk-radios__input" id="changed-name" name="changed-name" type="radio" value="month">
+                        <label class="govuk-label govuk-radios__label" for="changed-name">
+                          Grant
+                        </label>
+                      </div>
+                      <div class="govuk-radios__item">
+                        <input class="govuk-radios__input" id="changed-name-2" name="changed-name" type="radio" value="year">
+                        <label class="govuk-label govuk-radios__label" for="changed-name-2">
+                          Refuse
+                        </label>
+                      </div>
+                      <div class="govuk-radios__item">
+                        <input class="govuk-radios__input" id="changed-name-3" name="changed-name" type="radio" value="day">
+                        <label class="govuk-label govuk-radios__label" for="changed-name-3">
+                          Put on hold
+                        </label>
+                      </div>
+                    </div>
+
+                  </fieldset>
+                </div>
+
+                <div class="govuk-character-count" data-module="govuk-character-count" data-maxlength="200">
+                  <div class="govuk-form-group">
+                    <h3 class="govuk-label-wrapper"><label class="govuk-label govuk-label--s" for="with-hint">
+                        Any other notes or concern
+                      </label>
+                    </h3>
+                    <div id="with-hint-hint" class="govuk-hint">
+                      Add any information to support your decision
+                    </div>
+                    <textarea class="govuk-textarea govuk-js-character-count" id="with-hint" name="with-hint" rows="5" aria-describedby="with-hint-info with-hint-hint"></textarea>
+                  </div>
+
+                  <div id="with-hint-info" class="govuk-hint govuk-character-count__message" aria-live="polite">
+                    You can enter up to 200 characters
+                  </div>
+
+                </div>
+
+
+            <form action="/reject" class="not-govuk-form" method="get">
+
+          <input
+            type="submit"
+            class="govuk-button"
+            value="Submit"
+          />
+        </form>
+</div>
+
+      </div>
+      <!--  -->
+<div class="govuk-grid-column-one-third">
+  <aside>
+          <h2>Updates</h2>
+          <p>Latest license information as of [Day] [Month] [Year]</p>
+        </aside>
+
+        <aside>
+                <h2>Bengal information</h2>
+                <p>The Bengal cat is a domesticated cat breed created from hybrids of domestic cats, especially the spotted Egyptian Mau, with the Asian leopard cat (Prionailurus bengalensis). The breed name comes from the leopard cat's taxonomic name.
+
+Bengals have a wild appearance; their golden shimmer comes from their leopard cat ancestry, and their coats may show spots, rosettes, arrowhead markings, or marbling. They are an energetic breed which needs much exercise and play.</p>
+<p><a href="https://en.wikipedia.org/wiki/Bengal_cat" class="govuk-link">More information</a></p>
+
+              </aside>
+</div>
+      <!--  -->
+    </div>
+
+  </main>
+</div>
+
+  </Fragment>

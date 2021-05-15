@@ -1,0 +1,16 @@
+;require('/Users/karwaipun/projects/hods-prototype/node_modules/source-map-support/source-map-support.js').install();
+exports.id = "server";
+exports.modules = {
+
+/***/ "./src/common/pages/index.html":
+/*!*************************************!*\
+  !*** ./src/common/pages/index.html ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("// Module\nvar code = \"\\n  <Fragment>\\n    <h1>Prototype</h1>\\n    <p>This is a mock internal service for caseworkers to decide whether a licence is needed to own a Savannah cat. The Savannah is an exotic, hybrid breed and closely resembles its wild cat ancestor, the African Serval.</p>\\n    <p>Savannahs are produced by crossbreeding servals and domestic cats, each generation of Savannahs is marked with a filial number. For example, the cats produced directly from a serval × domestic cat cross are termed F1, and they are 50% serval.</p>\\n    <p>In the UK, F2, F3 and F4 Savannah cats are legal and available to buy from reputable breeders. It’s illegal to own an F1 Savannah cat without a Dangerous Wild Animal Licence, which an average cat owner will not be able to get.</p>\\n\\n    <form action=\\\"list/\\\" class=\\\"not-govuk-form\\\" method=\\\"get\\\">\\n\\n  <input\\n    type=\\\"submit\\\"\\n    class=\\\"govuk-button\\\"\\n    value=\\\"Continue\\\"\\n  />\\n</form>\\n\\n\\n  </Fragment>\\n\";\n// Exports\nmodule.exports = code;//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvY29tbW9uL3BhZ2VzL2luZGV4Lmh0bWw/NzRiNCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtBQUNBO0FBQ0E7QUFDQSIsImZpbGUiOiIuL3NyYy9jb21tb24vcGFnZXMvaW5kZXguaHRtbC5qcyIsInNvdXJjZXNDb250ZW50IjpbIi8vIE1vZHVsZVxudmFyIGNvZGUgPSBcIlxcbiAgPEZyYWdtZW50PlxcbiAgICA8aDE+UHJvdG90eXBlPC9oMT5cXG4gICAgPHA+VGhpcyBpcyBhIG1vY2sgaW50ZXJuYWwgc2VydmljZSBmb3IgY2FzZXdvcmtlcnMgdG8gZGVjaWRlIHdoZXRoZXIgYSBsaWNlbmNlIGlzIG5lZWRlZCB0byBvd24gYSBTYXZhbm5haCBjYXQuIFRoZSBTYXZhbm5haCBpcyBhbiBleG90aWMsIGh5YnJpZCBicmVlZCBhbmQgY2xvc2VseSByZXNlbWJsZXMgaXRzIHdpbGQgY2F0IGFuY2VzdG9yLCB0aGUgQWZyaWNhbiBTZXJ2YWwuPC9wPlxcbiAgICA8cD5TYXZhbm5haHMgYXJlIHByb2R1Y2VkIGJ5IGNyb3NzYnJlZWRpbmcgc2VydmFscyBhbmQgZG9tZXN0aWMgY2F0cywgZWFjaCBnZW5lcmF0aW9uIG9mIFNhdmFubmFocyBpcyBtYXJrZWQgd2l0aCBhIGZpbGlhbCBudW1iZXIuIEZvciBleGFtcGxlLCB0aGUgY2F0cyBwcm9kdWNlZCBkaXJlY3RseSBmcm9tIGEgc2VydmFsIMOXIGRvbWVzdGljIGNhdCBjcm9zcyBhcmUgdGVybWVkIEYxLCBhbmQgdGhleSBhcmUgNTAlIHNlcnZhbC48L3A+XFxuICAgIDxwPkluIHRoZSBVSywgRjIsIEYzIGFuZCBGNCBTYXZhbm5haCBjYXRzIGFyZSBsZWdhbCBhbmQgYXZhaWxhYmxlIHRvIGJ1eSBmcm9tIHJlcHV0YWJsZSBicmVlZGVycy4gSXTigJlzIGlsbGVnYWwgdG8gb3duIGFuIEYxIFNhdmFubmFoIGNhdCB3aXRob3V0IGEgRGFuZ2Vyb3VzIFdpbGQgQW5pbWFsIExpY2VuY2UsIHdoaWNoIGFuIGF2ZXJhZ2UgY2F0IG93bmVyIHdpbGwgbm90IGJlIGFibGUgdG8gZ2V0LjwvcD5cXG5cXG4gICAgPGZvcm0gYWN0aW9uPVxcXCJsaXN0L1xcXCIgY2xhc3M9XFxcIm5vdC1nb3Z1ay1mb3JtXFxcIiBtZXRob2Q9XFxcImdldFxcXCI+XFxuXFxuICA8aW5wdXRcXG4gICAgdHlwZT1cXFwic3VibWl0XFxcIlxcbiAgICBjbGFzcz1cXFwiZ292dWstYnV0dG9uXFxcIlxcbiAgICB2YWx1ZT1cXFwiQ29udGludWVcXFwiXFxuICAvPlxcbjwvZm9ybT5cXG5cXG5cXG4gIDwvRnJhZ21lbnQ+XFxuXCI7XG4vLyBFeHBvcnRzXG5tb2R1bGUuZXhwb3J0cyA9IGNvZGU7Il0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/common/pages/index.html\n");
+
+/***/ })
+
+};
