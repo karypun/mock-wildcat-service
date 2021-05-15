@@ -1,9 +1,6 @@
 import { FC, Fragment, createElement as h } from 'react';
 import { PageProps } from '@not-govuk/app-composer';
-import { Tabs } from '@not-govuk/components';
-import { Table } from '@not-govuk/components';
-import { Tag } from '@not-govuk/components';
-import { Details } from '@not-govuk/components';
+import { A, Details, Table, Tabs, Tag } from '@not-govuk/components';
 
 
 
@@ -30,17 +27,17 @@ items={[
           }}
           data={[
             {
-              application: "F4-45221",
+              application: <A href="case-1">F1-56720</A>,
               species: "Savannah",
               status: <Tag classModifiers="red">urgent</Tag>,
             },
             {
-              application: "F4-45221",
+              application: <A href="case-2">F4-45221</A>,
               species: "Bengal",
               status: <Tag classModifiers="blue">new</Tag>,
             },
             {
-              application: "F2-90024",
+              application: <A href="case-3">F2-90024</A>,
               species: "Ocelot",
               status: <Tag classModifiers="blue">new</Tag>,
             },
@@ -64,17 +61,17 @@ items={[
           }}
           data={[
             {
-              application: "F1-56720",
+              application: <A href="case-1">F1-56720</A>,
               species: "Savannah",
               status: <Tag classModifiers="blue">new</Tag>,
             },
             {
-              application: "F4-45221",
+              application: <A href="case-2">F4-45221</A>,
               species: "Geoffroy's cat",
               status: <Tag classModifiers="green">renew</Tag>,
             },
             {
-              application: "F2-90024",
+              application: <A href="case-3">F2-90024</A>,
               species: "Ocelot",
               status: <Tag classModifiers="red">urgent</Tag>,
             },
@@ -98,17 +95,17 @@ items={[
           }}
           data={[
             {
-              application: "F1-56720",
+              application: <A href="case-1">F1-56720</A>,
               species: "Savannah",
               status: <Tag classModifiers="green">renew</Tag>,
             },
             {
-              application: "F4-45221",
+              application: <A href="case-2">F4-45221</A>,
               species: "Ocelot",
               status: <Tag classModifiers="red">urgent</Tag>,
             },
             {
-              application: "F2-90024",
+              application: <A href="case-3">F2-90024</A>,
               species: "Eurasian lynx",
               status: <Tag classModifiers="blue">new</Tag>,
             },
@@ -132,17 +129,17 @@ items={[
           }}
           data={[
             {
-              application: "F1-56720",
+              application: <A href="case-1">F1-56720</A>,
               species: "Bengal",
               status: <Tag classModifiers="red">urgent</Tag>,
             },
             {
-              application: "F4-45221",
+              application: <A href="case-2">F4-45221</A>,
               species: "Geoffroy's cat",
               status: <Tag classModifiers="green">renew</Tag>,
             },
             {
-              application: "F2-90024",
+              application: <A href="case-3">F2-90024</A>,
               species: "Savannah",
               status: <Tag classModifiers="blue">new</Tag>,
             },
