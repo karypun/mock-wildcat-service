@@ -1,4 +1,4 @@
-Hods Prototype
+Prototype of a mock wildcat service
 ===
 
 
