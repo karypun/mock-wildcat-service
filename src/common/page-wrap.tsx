@@ -24,8 +24,8 @@ export const PageWrap: FC<PageProps> = ({ routes, children }) => {
         { href: "/privacy", text: "Privacy" }
       ]}
       navigation={[
-        { href: "/list-test", text: "Review applications" },
-        { href: "/", text: "Reports" }
+        { href: "/", text: "Home" },
+        { href: "/list-test", text: "Review applications" }
       ]}
       title="Review wildcat licence applications"
     >

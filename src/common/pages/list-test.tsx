@@ -15,9 +15,7 @@ items={[
     id: "to-review",
     content: (
       <Fragment>
-      <Details summary="Change search">
-      Search form goes here
-    </Details>
+        <h2>To review</h2>
         <Table
           keys={["application", "species", "status"]}
           headings={{
@@ -27,17 +25,17 @@ items={[
           }}
           data={[
             {
-              application: <A href="case-1">F1-56720</A>,
+              application: <A href="/case-1">F1-56720</A>,
               species: "Savannah",
               status: <Tag classModifiers="red">urgent</Tag>,
             },
             {
-              application: <A href="case-2">F4-45221</A>,
+              application: <A href="/case-2">F4-45221</A>,
               species: "Bengal",
               status: <Tag classModifiers="blue">new</Tag>,
             },
             {
-              application: <A href="case-3">F2-90024</A>,
+              application: <A href="/case-3">F2-90024</A>,
               species: "Ocelot",
               status: <Tag classModifiers="blue">new</Tag>,
             },
@@ -61,17 +59,17 @@ items={[
           }}
           data={[
             {
-              application: <A href="case-1">F1-56720</A>,
+              application: <A href="/case-1">F1-56720</A>,
               species: "Savannah",
               status: <Tag classModifiers="blue">new</Tag>,
             },
             {
-              application: <A href="case-2">F4-45221</A>,
+              application: <A href="/case-2">F4-45221</A>,
               species: "Geoffroy's cat",
               status: <Tag classModifiers="green">renew</Tag>,
             },
             {
-              application: <A href="case-3">F2-90024</A>,
+              application: <A href="/case-3">F2-90024</A>,
               species: "Ocelot",
               status: <Tag classModifiers="red">urgent</Tag>,
             },
@@ -95,17 +93,17 @@ items={[
           }}
           data={[
             {
-              application: <A href="case-1">F1-56720</A>,
+              application: <A href="/case-1">F1-56720</A>,
               species: "Savannah",
               status: <Tag classModifiers="green">renew</Tag>,
             },
             {
-              application: <A href="case-2">F4-45221</A>,
+              application: <A href="/case-2">F4-45221</A>,
               species: "Ocelot",
               status: <Tag classModifiers="red">urgent</Tag>,
             },
             {
-              application: <A href="case-3">F2-90024</A>,
+              application: <A href="/case-3">F2-90024</A>,
               species: "Eurasian lynx",
               status: <Tag classModifiers="blue">new</Tag>,
             },
@@ -129,17 +127,17 @@ items={[
           }}
           data={[
             {
-              application: <A href="case-1">F1-56720</A>,
+              application: <A href="/case-1">F1-56720</A>,
               species: "Bengal",
               status: <Tag classModifiers="red">urgent</Tag>,
             },
             {
-              application: <A href="case-2">F4-45221</A>,
+              application: <A href="/case-2">F4-45221</A>,
               species: "Geoffroy's cat",
               status: <Tag classModifiers="green">renew</Tag>,
             },
             {
-              application: <A href="case-3">F2-90024</A>,
+              application: <A href="/case-3">F2-90024</A>,
               species: "Savannah",
               status: <Tag classModifiers="blue">new</Tag>,
             },
