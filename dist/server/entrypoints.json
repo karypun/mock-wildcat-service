@@ -1,5 +1,6 @@
 {
   "server": [
-    "index.js"
+    "index.js",
+    "server.bee7338db6f38d86add7.hot-update.js"
   ]
 }

@@ -1,7 +1,7 @@
 import { FC, Fragment, createElement as h } from 'react';
 import { PageProps } from '@not-govuk/app-composer';
 import { A, Details, Table, Tabs, Tag } from '@not-govuk/components';
-
+import { Pagination } from '@hods/components';
 
 
 
@@ -32,6 +32,21 @@ items={[
             {
               application: <A href="/case-2">F4-45221</A>,
               species: "Bengal",
+              status: <Tag classModifiers="green">renew</Tag>,
+            },
+            {
+              application: <A href="/case-3">F2-90024</A>,
+              species: "Ocelot",
+              status: <Tag classModifiers="blue">new</Tag>,
+            },
+            {
+              application: <A href="/case-1">F1-56720</A>,
+              species: "Savannah",
+              status: <Tag classModifiers="red">urgent</Tag>,
+            },
+            {
+              application: <A href="/case-2">F4-45221</A>,
+              species: "Ocelot",
               status: <Tag classModifiers="blue">new</Tag>,
             },
             {
@@ -39,7 +54,42 @@ items={[
               species: "Ocelot",
               status: <Tag classModifiers="blue">new</Tag>,
             },
+            {
+              application: <A href="/case-1">F1-56720</A>,
+              species: "Savannah",
+              status: <Tag classModifiers="red">urgent</Tag>,
+            },
+            {
+              application: <A href="/case-2">F4-45221</A>,
+              species: "Eurasian lynx",
+              status: <Tag classModifiers="green">renew</Tag>,
+            },
+            {
+              application: <A href="/case-3">F2-90024</A>,
+              species: "Ocelot",
+              status: <Tag classModifiers="blue">new</Tag>,
+            },
+            {
+              application: <A href="/case-1">F1-56720</A>,
+              species: "Geoffroy's cat",
+              status: <Tag classModifiers="red">urgent</Tag>,
+            },
+            {
+              application: <A href="/case-2">F4-45221</A>,
+              species: "Bengal",
+              status: <Tag classModifiers="green">renew</Tag>,
+            },
+            {
+              application: <A href="/case-3">F2-90024</A>,
+              species: "Ocelot",
+              status: <Tag classModifiers="blue">new</Tag>,
+            },
           ]}
+        />
+        <Pagination
+          results={249}
+          resultsPerPage={25}
+          page={3}
         />
       </Fragment>
     ),
@@ -144,11 +194,13 @@ items={[
           ]}
         />
       </Fragment>
+
     ),
   },
 ]}
 />
   </Fragment>
+
 );
 
 export default Page;

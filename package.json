@@ -46,6 +46,6 @@
     "webpack-dev-middleware": "^3.7.2",
     "webpack-hot-middleware": "^2.25.0",
     "@not-govuk/components": "^0.2.0",
-    "@hods/components": "^0.1.0"
+    "@hods/components": "^0.1.14"
   }
 }
