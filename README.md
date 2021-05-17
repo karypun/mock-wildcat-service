@@ -1,7 +1,7 @@
 Prototype of a mock wildcat service
 ====================================
 
-This is a prototype of a mock internal service using the Home Office design system built in React - it is not a real service and is used to show how the HTML and React code can be used together.
+This is a prototype of a mock internal service using the Home Office design system built in React - it is not a real service and is used to experiment with and explore how the HTML and React code can be used together to test ideas and design services.
 
 https://test-mock-wildcat-service.herokuapp.com/ 
 
