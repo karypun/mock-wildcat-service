@@ -1,40 +1,14 @@
 Prototype of a mock wildcat service
-===
+====================================
 
+This is a prototype of a mock internal service using the Home Office design system built in React - it is not a real service and is used to show how the HTML and React code can be used together.
 
-
-
-Welcome to your new isomorphic React application
-------------------------------------------------
-
-To get started simply run `npm install` followed by:
-
-```shell
-npm run dev
-```
-
-Then visit http://localhost:8080 .
-
-The website design can be modified in the `src/common/page-wrap.tsx`
-file and individual pages can be added, removed and modified in the
-`src/common/pages/` directory.
-
-Should you wish, the meta-data for the HTML can be modified in the
-`src/server/template.tsx` file.
-
+https://test-mock-wildcat-service.herokuapp.com/ 
 
 How it works
 ------------
 
-An HTTP server is started that serves Server-Side Rendered (SSR) React
-pages as well as static assets built by webpack. The pages are defined
-by files in the `src/common/pages/` directory (similar to [Next.js]) and
-are wrapped by an application, allowing you to provide a uniform look
-and feel to your website.
-
-The pages served link to a JavaScript 'bundle' built by webpack that
-'hydrates' the website once it is loaded, allowing for an enhanced user
-experience on clients that can support it.
+Feel free to contribute to this or ask any questions. It is a work in progress.
 
 
 Notable files and directories
