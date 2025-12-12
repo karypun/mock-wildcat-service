@@ -1,4 +1,4 @@
-FROM node:12-alpine
+FROM node:22.15.0-alpine
 
 RUN apk add --no-cache ca-certificates \
  && apk upgrade --no-cache \
@@ -15,11 +15,11 @@ COPY package.json /app/
 COPY dist/ /app/dist/
 
 USER 31337
-ENV LISTEN_HOST="0.0.0.0" \
+ENV LISTEN_HOST="::" \
     LISTEN_PORT="8080" \
     SSR_ONLY="false" \
     SESSIONS_SECRET="changeme" \
-    AUTH_METHOD="oidc" \
+    AUTH_METHOD="none" \
     OIDC_ISSUER="https://sso-dev.notprod.homeoffice.gov.uk/auth/realms/prototype/" \
     OIDC_CLIENT_ID="local-dev" \
     OIDC_CLIENT_SECRET="" \
@@ -27,4 +27,6 @@ ENV LISTEN_HOST="0.0.0.0" \
     AUTH_HEADER_USERNAME="x-auth-username" \
     AUTH_HEADER_GROUPS="x-auth-groups" \
     AUTH_HEADER_ROLES="x-auth-roles"
+EXPOSE ${LISTEN_PORT:-8080}
+HEALTHCHECK CMD wget -q -O /dev/null http://localhost/healthz:${LISTEN_PORT} || exit 1
 CMD ["node", "."]

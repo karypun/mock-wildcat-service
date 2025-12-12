@@ -1,0 +1,9 @@
+.cypress/
+.serverless/
+node_modules/
+pkg/
+spec/
+src/
+README.md
+tsconfig.json
+tsconfig.tsbuildinfo
