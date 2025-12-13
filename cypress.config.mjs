@@ -3,7 +3,7 @@ export default {
   e2e: {
     baseUrl: 'http://localhost:8080',
     specPattern: 'feat/**/*.spec.*',
-    supportFile: '../../.cypress/support/index.js',
+    supportFile: false,
     testIsolation: false
   },
   fixturesFolder: 'fixtures',

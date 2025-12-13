@@ -1,7 +1,7 @@
 import { FC, Fragment, createElement as h } from 'react';
 import { PageProps } from '@not-govuk/app-composer';
 import { A, Details, Table, Tabs, Tag } from '@not-govuk/components';
-import { Pagination } from '@hods/components';
+import { Pagination } from '@not-govuk/components';
 
 
 
@@ -87,9 +87,9 @@ items={[
           ]}
         />
         <Pagination
-          results={249}
-          resultsPerPage={25}
-          page={3}
+          currentPage={3}
+          pageParameter="p"
+          totalPages={10}
         />
       </Fragment>
     ),
