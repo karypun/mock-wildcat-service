@@ -5,7 +5,7 @@ import { Page } from '@hods/components';
 import './app.scss';
 
 export const PageWrap: FC<PageProps> = ({ routes, children }) => {
-  const compare = (a, b) => (
+  const compare = (a: any, b: any) => (
     a.href > b.href
     ? 1
     : -1
